@@ -1,6 +1,6 @@
 package com.catnip.notepadplusplus.ui.main
 
-import com.catnip.todolistapp.base.BasePresenterImpl
+import com.catnip.notepadplusplus.base.BasePresenterImpl
 
 /**
 Written with love by Muhammad Hermas Yuda Pamungkas

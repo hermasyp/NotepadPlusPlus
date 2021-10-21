@@ -1,5 +1,6 @@
-package com.catnip.todolistapp.base
+package com.catnip.notepadplusplus.base
 
+import com.catnip.todolistapp.base.BaseContract
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -8,7 +9,7 @@ import kotlinx.coroutines.Job
 Written with love by Muhammad Hermas Yuda Pamungkas
 Github : https://github.com/hermasyp
  **/
-open class BasePresenterImpl : BaseContract.BasePresenter{
+open class BasePresenterImpl : BaseContract.BasePresenter {
     private val coroutineJob =  Job()
     val scope = CoroutineScope(Dispatchers.IO + coroutineJob)
     override fun onDestroy() {

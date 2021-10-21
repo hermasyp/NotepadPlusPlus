@@ -3,7 +3,7 @@ package com.catnip.notepadplusplus.ui.noteform
 import com.catnip.notepadplusplus.data.model.Note
 import com.catnip.notepadplusplus.base.model.Resource
 import com.catnip.notepadplusplus.utils.Constant
-import com.catnip.todolistapp.base.BasePresenterImpl
+import com.catnip.notepadplusplus.base.BasePresenterImpl
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
